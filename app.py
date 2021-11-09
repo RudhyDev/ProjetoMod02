@@ -10,6 +10,7 @@
 
 from flask import Flask, render_template, redirect, request
 from flask_mail import Mail, Message #Importa o Mail e o Message do flask_mail para facilitar o envio de emails
+from flask_sqlalchemy import SQLAlchemy
 
 
 app = Flask(__name__)
